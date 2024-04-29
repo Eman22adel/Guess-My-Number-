@@ -13,5 +13,3 @@ Number Guessing: Users can guess a number between 1 and 20.
 Feedback System: The game provides feedback on whether the guessed number is too high, too low, or correct.
 Replayability: Users can play the game as many times as they want.
 User-friendly Interface: The game has a simple and intuitive interface.
-
-## Deployment
