@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+}
+body{
+    margin: 2rem auto;
+    width: 70%;
+}
+button{
+    cursor:pointer ;
+    font-family: 'Press Start 2P',sans-serif;
+}
+input{
+    font-family: 'Press Start 2P',sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+}
+header button#again{
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.467);
+}
+nav{
+    text-align: center;
+    font-size:xx-large;
+    margin-bottom: 2rem;
+}
+nav input#outinput{
+    margin-top: 3rem;
+    width: 20%;
+    height: 20%;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+    background: transparent;
+    outline: white .2rem solid;
+    border: none;
+    color: rgb(228, 13, 13);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer #footer_rigth{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer #footer_rigth input#input{
+    width: 50%; height: 3em;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: .5rem;
+    outline: white .2rem solid;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+footer #footer_rigth #check{
+    width: 40%;
+    padding: 1rem;
+    margin:  2rem;
+    font-weight: bold;
+    font-size: large;
+    border-radius: .5rem;
+    background-color: rgba(255, 255, 255, 0.467);
+}
+footer #footer_left{
+    margin: 2rem;
+}
+footer #footer_left p{
+    padding: 1rem;
+}
